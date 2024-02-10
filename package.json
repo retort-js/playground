@@ -1,6 +1,6 @@
 {
-  "name": "retort-js-playground",
-  "version": "0.0.1",
+  "name": "@retort-js/playground",
+  "version": "0.0.1-dev.1",
   "description": "A place to play with Prompt Chains in retort-js",
   "main": "index.js",
   "scripts": {
