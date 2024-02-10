@@ -4,6 +4,7 @@
   "description": "A place to play with Prompt Chains in retort-js",
   "main": "index.js",
   "scripts": {
+    "start": "npx retort-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/retort-js/playground/issues"
   },
-  "homepage": "https://github.com/retort-js/playground#readme"
+  "homepage": "https://github.com/retort-js/playground#readme",
+  "dependencies": {
+    "retort-js": "0.0.1",
+    "@retort-js/dev-server": "0.0.1-dev.1"
+  }
 }
