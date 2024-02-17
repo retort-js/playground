@@ -4,21 +4,20 @@
   "description": "A place to play with Prompt Chains in retort-js",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node-modules/@retort-js/dev-server/dist/server.js --watch",
+    "start": "node ./node_modules/@retort-js/dev-server/dist/server.js --watch-path=./retort",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/retort-js/playground.git"
   },
-  "author": "Daniel Huggins", 
+  "author": "Daniel Huggins",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/retort-js/playground/issues"
   },
   "homepage": "https://github.com/retort-js/playground#readme",
   "dependencies": {
-    "retort-js": "0.0.1",
-    "@retort-js/dev-server": "0.0.1-dev.1"
+    "@retort-js/dev-server": "^0.0.2-dev.1"
   }
 }
