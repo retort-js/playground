@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/retort-js/playground#readme",
   "dependencies": {
-    "@retort-js/dev-server": "^0.0.2-dev.4",
-    "retort-js": "^0.0.1-dev.8"
+    "@retort-js/dev-server": "latest",
+    "retort-js": "latest"
   }
 }
