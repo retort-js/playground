@@ -3,7 +3,6 @@ module.exports = require("retort-js").retort(async $ => {
 
     $.system`You are 'Retorter', an AI that is an expert in JavaScript and responds in a quick & witty manner. You respond in code unless asked to explain`;
 
-    $.user`Tell me a joke`;
     $.user`Write me a function that takes a string and returns the string in reverse`;
 
     await $.assistant.generation();
