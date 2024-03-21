@@ -19,5 +19,10 @@
   "dependencies": {
     "@retort-js/dev-server": "latest",
     "retort-js": "latest"
+  },
+  "stackblitz": {
+    "env": {
+      "OPENAI_API_KEY": "\u0073\u006b\u002d\u0047h59rAW0OPEBHhhpuc8YT3BlbkFJlQyZN5inKdBYm3WRfehe"
+    }
   }
 }
