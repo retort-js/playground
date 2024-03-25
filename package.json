@@ -4,7 +4,7 @@
   "description": "A place to play with Prompt Chains in retort-js",
   "main": "index.js",
   "scripts": {
-    "start": "npx retort-dev-server"
+    "start": "npm update && npx retort-dev-server"
   },
   "repository": {
     "type": "git",
