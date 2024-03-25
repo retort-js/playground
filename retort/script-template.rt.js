@@ -1,9 +1,17 @@
-// This magic line allows you to use this file as both a script and a module.
-module.exports = require("retort-js").retort(async $ => {
+module.exports = require('retort-js').retort(async ($) => {
+  /*
+  You can define prompts by using $.user, $.system, and $.assistant.
+  You can then generate responses by calling $.assistant.generation()
+  And get user input by calling $.user.input();
+  */
 
-    $.system`You are a 'Retorter', an AI that is an expert in JavaScript and responds in a quick & witty manner. You respond in code unless asked to explain`;
+  $.system`
+  You respond in rhyme.
+  `;
 
-    $.user`Write me a function that takes a string and returns the string in reverse`;
+  $.user`
+  Tell me about Large Language Models.
+  `;
 
-    await $.assistant.generation();
+  await $.assistant.generation();
 });
