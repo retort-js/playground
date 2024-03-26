@@ -17,10 +17,12 @@ This is what you know about writing great B2B websites:
 ${(await $.run(websiteDesignCriteria)).content}
 `;
 
+const businessSummary = await $.user.input({query: "Please enter a summary of your business: "});
+
 $.user`
 ###The Business###
 This is what you know about the business:
-$imports.gyre-business-summary
+${businessSummary.content}
 `;
 
 $.user`
@@ -29,11 +31,13 @@ This is what you know about how SEO works for web-site pages:
 ${(await $.run(seoGuide)).content}
 `;
 
+const keywords = await $.user.input({query: "Please enter your SEO keywords: "});
+
 $.user`
 ###Keywords###
 Here are the keywords that need incorporating into the website
 These keywords are rank-ordered in terms of search frequency
-$imports.gyre-keywords
+${keywords.content}
 `;
 
 $.user`
