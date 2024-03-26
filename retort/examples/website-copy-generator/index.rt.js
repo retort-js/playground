@@ -1,9 +1,9 @@
 module.exports = require("retort-js").retort(async $ => {
 
-  $.user`
-  ###Your role###
+  $.system`
   You are a brilliant copy-writer for B2B businesses, 
   known for your ability to communicate complex propositions in simple, clear, engaging language.
+  Format your responses in markdown
   `;
 
   $.user`
