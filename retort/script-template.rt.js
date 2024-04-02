@@ -1,13 +1,13 @@
 module.exports = require('retort-js').retort(async ($) => {
   /*
-    ^^ This magic line defines and contains the Retort script.
+    The magic line above defines and contains the Retort script.
     Edit the script, save it, and bookmark the URL to come back here.
     In order the run the script, scroll to the top of the web view and click the 'run' button.
 
     Use $.system to define the role of the model.
     Use $.user to define a user message to send to the model.
-    Use 'await $.assistant.generation()' to send your message(s) to the model and prompt a response'.
-    Use 'await $.user.input()' to take user input and use it as a message in your prompt chain.
+    Use 'await $.assistant.generation()' to send your message(s) to the model and get a response'.
+    Use 'await $.user.input()' to take user input and use it as a message in your script.
 
     This allows you to specify the way the model answers questions.
     Make sure to wrap your Retort prompts in backticks!
