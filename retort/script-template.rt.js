@@ -22,8 +22,4 @@ module.exports = require('retort-js').retort(async ($) => {
   `;
 
   await $.assistant.generation();
-
-  await $.user.input();
-
-  await $.assistant.generation();
 });
