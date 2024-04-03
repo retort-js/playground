@@ -9,8 +9,7 @@ module.exports = require('retort-js').retort(async ($) => {
     Use 'await $.assistant.generation()' to send your message(s) to the model and get a response'.
     Use 'await $.user.input()' to take user input and use it as a message in your script.
 
-    This allows you to specify the way the model answers questions.
-    Make sure to wrap your Retort prompts in backticks!
+    Make sure to remember the backticks (``) in your Retort prompts.
   */
 
   $.system`
