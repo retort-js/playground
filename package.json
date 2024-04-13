@@ -17,8 +17,7 @@
   },
   "homepage": "https://github.com/retort-js/playground#readme",
   "dependencies": {
-    "@retort-js/dev-server": "latest",
-    "retort-js": "latest"
+    "@retort-js/dev-server": "0.0.10-dev.2"
   },
   "stackblitz": {
     "env": {
